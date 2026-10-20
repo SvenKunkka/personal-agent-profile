@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 # Personal Agent Profile
 
 一份可迁移、与模型和账号无关的个人 AI 协作约定。
@@ -29,3 +33,30 @@ Codex 支持从全局 `~/.codex/AGENTS.md` 读取个人指令。导入前备份�
 本文面向仓库所有者主动配置的助手，记录稳定的沟通、执行和交付偏好。其他人可以参考结构，按自己的需要调整。
 
 具体项目状态、内部文档地址、账号、凭证、私人路径和工作日志不放入公开文件；工具配置和项目业务流程单独管理。
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+一份可迁移、与模型和账号无关的个人 AI 协作约定，记录沟通、执行、来源判断和交付偏好。AGENTS.md 是唯一规则正文，可用于主动配置支持自定义指令的助手。
+
+**使用入口：** 读取 [AGENTS.md](AGENTS.md)，合并到目标工具实际支持的指令入口，保留原设置，并在新会话中检查规则版本与行为。
+
+**范围说明：** 导入只是版本快照，不会自动同步；文件名与引用语法需按目标工具处理，不包含账号或项目运行状态。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+A portable personal AI collaboration profile independent of models and accounts. AGENTS.md is the canonical policy for communication, execution, evidence and delivery preferences in assistants configured by the user.
+
+**Getting started:** Read [AGENTS.md](AGENTS.md), merge it into the instruction entry supported by the target tool while preserving existing settings, then check the version and behavior in a new session.
+
+**Scope:** Imports are snapshots and do not sync automatically. File names and reference syntax depend on the target tool; account details and project runtime state are excluded.
+
+**仓库维护者 / Repository maintainer:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
